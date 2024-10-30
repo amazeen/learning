@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Learning</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=fitness_center" />
+</head>
+
+<body>
+
+  <div>
+    <span class="material-icons md-50">fitness_center</span>
+    <h1 class="libre-baskerville-bold">What I am Learning</h1>
+  </div>
+
+  <h2>My Teachers</h2>
+
+  <button type="button" class="collapsible">Pastor Joseph Prince</button>
+  <div class="content">
+    <p>
+      Speak out your righteousness: &ensp; <span class="highlight1">I’m the righteousness of God in Christ. </span></p>
+    <p>
+      Father, I thank you that I’m righteous in Christ, not because of what I have done, but because of what Christ has done. It’s a gift, and I receive it with all my heart.
+    </p>
+    <p>
+      I am righteous in Christ! God's favor, wisdom, provision and good success are mine today!
+    </p>
+
+    <p>
+      <i>When you speak and declare your righteousness, good things happen.</i>
+    </p>
+  </div>
+
+  <button type="button" class="collapsible">Justin Abraham</button>
+  <div class="content">
+    <p>
+      Decrees of wisdom: </p>
+
+    <p>
+      "God gave me the largest of hearts, there is nothing beyond me, there is nothing I cannot handle."
+      "God gave me 林怡珍 Janice the deepest of understanding and largest of hearts. There is nothing beyond me; there is nothing I cannot handle." </p>
+    <p>
+      "I have a mind, that is limitless as the sand on the seashore." Spend 1 minute on this
+    </p>
+    <p>
+      "I have an extraordinary spirit. (Daniel 5:12)" <br />
+      "I can solve complex problems."
+    </p>
+    <p class="subsection">
+      Exercises
+    </p>
+    <p>
+      &emsp; SI <audio controls src="sounds/JAbraham_si.mp3"></audio>
+      &emsp; Heart <audio controls src="sounds/JAbraham_heart.mp3"></audio>
+    </p>
+  </div>
+  <button type="button" class="collapsible">Liz Wright</button>
+  <div class="content">
+    <p>
+      When we truly see and speak with authentic discernment, people (the one you're talking to or praying for) will experience being connected to God's love, the sense of separateness to God's love will disappear for them. Bestowing dignity and
+      honor to them. The words you speak, the value you have of them will express hope. It will impart love. It will embrace people into an experience with God. The gift of discernment will always produce fruit of His nature in a situation.
+    </p>
+    <p>
+      When I speak in true discernment, the person should encounter love, experience Him. If what I am about to say undermines or damages their reputation (the one I'm speaking about), then it's not discernment.
+    </p>
+  </div>
+  <button type="button" class="collapsible">Katie Souza</button>
+  <div class="content">
+    <p class="subsection">
+      Prayers
+    </p>
+    <p>
+      Bitterness &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; <audio controls src="sounds/KSouzabitter.mp3"></audio><br />
+      Wound from storm &emsp; &emsp; <audio controls src="sounds/KS-wound-fr-storm.mp3"></audio> <br />
+
+      Wound n death &emsp; &emsp; &emsp; &ensp; <audio controls src="sounds/KatieS_woundndeath.mp3"></audio> <br />
+      Communion &emsp; &emsp; &emsp; &emsp; &ensp; <audio controls src="sounds/KSouza_communion.mp3"></audio> <br />
+      Organs and life &emsp; &emsp; &emsp; &ensp; <audio controls src="sounds/KatieSouza_organs_life.mp3"></audio> <br />
+
+    </p>
+  </div>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+</body>
+<footer>
+  ***Learning in Progress. &nbsp; Learning takes Time.***
+</footer>
+
+</html>
