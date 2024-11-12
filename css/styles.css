@@ -27,30 +27,31 @@
 }
 
 .material-icons.md-50 {
-  color: #FEBE10; /* This is Real Madrid Gold. McDonald's yellow is #FFC72C */
+  color: #FEBE10;
+  /* This is Real Madrid Gold. McDonald's yellow is #FFC72C */
   float: left;
   font-size: 50px;
   margin-left: 5px;
 }
 
 .subsection {
-       color: #DE3163;
-       font-weight: bold;
-       font-size: 1rem;
-       margin-top: 15px;
-       text-align: left;
-   }
+  color: #DE3163;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 15px;
+  text-align: left;
+}
 
 body {
-     /* background-color: linen; */
-     background-color: white;
-     font-family: "Libre Baskerville", serif;
-     font-weight: 400;
-     font-style: normal;
-     padding-top:10px;
-     padding-left: 40px;
-     padding-right: 40px;
-   }
+  /* background-color: linen; */
+  background-color: white;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 footer {
   color: #FEBE10;
@@ -60,23 +61,29 @@ footer {
 }
 
 h1 {
-     color: #568203;  /* Avocado is #568203*/
-     font-weight: 300;
-     font-style: normal;
-     font-size: 2.5rem;
-     margin-top:20px;
-     margin-left: 85px;
- }
+  color: #568203;
+  /* Avocado is #568203*/
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-left: 85px;
+}
 
- h3 {
-      color: Gray;
-      font-weight: 300;
-      font-style: normal;
-      font-size: 1rem;
-      text-align: left;
-      padding-top: 10px;
-  }
+h2 {
+  color: Brown;
+}
 
-  p {
-    padding-left: 10px;
-  }
+h3 {
+  color: Gray;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: left;
+  padding-top: 10px;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
